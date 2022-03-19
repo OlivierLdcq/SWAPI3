@@ -68,23 +68,25 @@ const CardDisplay = ({ starWarsList, search, select, cardFlash, count }) => {
   let todivedBy = tallest / 100;
   let todivedByforMass = heaviest / 100;
   return (
-    <div className="CardDisplay">
-      {filteredList.map((item, index) => {
-        return (
-          <Card2
-            key={index}
-            name={item.name}
-            rank={item.rank}
-            mass={item.mass}
-            height={item.height}
-            gender={item.gender}
-            todivedBy={todivedBy}
-            todivedByforMass={todivedByforMass}
-            cardFlash={cardFlash}
-            count={count}
-          />
-        );
-      })}
+    <div className="CardDisplay_CTN">
+      <div className="CardDisplay">
+        {filteredList.map((item, index) => {
+          return (
+            <Card2
+              key={index}
+              name={item.name}
+              rank={item.rank}
+              mass={item.mass}
+              height={item.height}
+              gender={item.gender}
+              todivedBy={todivedBy}
+              todivedByforMass={todivedByforMass}
+              cardFlash={cardFlash}
+              count={count}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };

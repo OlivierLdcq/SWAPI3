@@ -21,3 +21,8 @@
   margin-bottom: 20px;
   text-align: center;
 }
+
+@media screen and (max-width: 400px) {
+  * {
+  }
+}
