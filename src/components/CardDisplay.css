@@ -1,0 +1,10 @@
+.CardDisplay {
+  margin-top: 30px;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  transition: all 1s ease-in-out;
+}

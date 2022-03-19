@@ -1,0 +1,53 @@
+.Card {
+  /* border: solid black 1px; */
+  color: white;
+  min-height: 400px;
+  max-width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: solid white 1px;
+  /* background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%); */
+  position: relative;
+  transition: all 1s ease;
+  -webkit-box-shadow: 5px 5px 10px -5px #000000;
+  box-shadow: 5px 5px 10px -5px #000000;
+}
+
+.imageCover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(143, 103, 103);
+  opacity: 0;
+  transition: ease 0.3s all;
+}
+.imageCover:hover {
+  opacity: 1;
+  border-radius: 10px;
+}
+.Card:hover {
+  cursor: pointer;
+}
+
+.heightBar {
+  height: 10px;
+  border-radius: 10px;
+  background-color: rgba(247, 80, 80, 0.666);
+}
+.massCtn {
+  display: inline-block;
+}
+.massBar {
+  background-color: #3f6183d9;
+  border-radius: 30% 70% 67% 33% / 30% 30% 70% 70%;
+  /* margin-left: 10%; */
+}
+
+.grow {
+  transform: scale(2);
+}

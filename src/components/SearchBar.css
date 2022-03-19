@@ -1,0 +1,15 @@
+.SearchBar {
+  display: flex;
+  justify-content: center;
+}
+
+#dropdown-basic-button {
+  margin-left: 50px;
+}
+.SearchBar input {
+  font-size: 1.4rem;
+}
+
+.form-select {
+  width: 180px;
+}

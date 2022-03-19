@@ -1,0 +1,73 @@
+.Card2 {
+  color: black;
+  width: 300px;
+  height: 500px;
+  border: solid 1px white;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.ctn1 {
+  height: 40%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  box-shadow: 3px 3px 3px 0px rgba(219, 219, 219, 1);
+}
+.ctn2 {
+  background-color: white;
+  height: 10%;
+  text-align: center;
+}
+.ctn2 h2 {
+  position: relative;
+  top: 20px;
+  margin: 0px;
+  font-weight: 300;
+}
+.ctn3 {
+  height: 50%;
+  padding-top: 10px;
+}
+.ctn3 p {
+  /* margin-bottom: 20px; */
+}
+.bar_n_count {
+  /* position: relative;
+  top: 0px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar_n_count span {
+  position: relative;
+  top: -5px;
+  right: 5px;
+}
+.hBar {
+  width: 80%;
+  height: 10px;
+  /* background-color: rgba(104, 100, 100, 0.372); */
+  background-color: rgba(184, 87, 87, 0.166);
+}
+.hBarProgress {
+  width: 0%;
+  height: 10px;
+  background-color: rgb(184, 87, 87);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: all ease 2s;
+}
+.cardFlash {
+  width: 50%;
+}
+
+/* @keyframes progress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;
+  }
+} */
