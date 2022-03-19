@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/SWAPI3/static/css/main.bcf7da95.css",
-    "main.js": "/SWAPI3/static/js/main.c5a02ef7.js",
+    "main.css": "/SWAPI3/static/css/main.3117b628.css",
+    "main.js": "/SWAPI3/static/js/main.b643cc24.js",
     "static/js/787.b1b501c9.chunk.js": "/SWAPI3/static/js/787.b1b501c9.chunk.js",
+    "static/media/Starjedi.ttf": "/SWAPI3/static/media/Starjedi.8d577dc1e1755c4860f3.ttf",
     "index.html": "/SWAPI3/index.html",
-    "main.bcf7da95.css.map": "/SWAPI3/static/css/main.bcf7da95.css.map",
-    "main.c5a02ef7.js.map": "/SWAPI3/static/js/main.c5a02ef7.js.map",
+    "main.3117b628.css.map": "/SWAPI3/static/css/main.3117b628.css.map",
+    "main.b643cc24.js.map": "/SWAPI3/static/js/main.b643cc24.js.map",
     "787.b1b501c9.chunk.js.map": "/SWAPI3/static/js/787.b1b501c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcf7da95.css",
-    "static/js/main.c5a02ef7.js"
+    "static/css/main.3117b628.css",
+    "static/js/main.b643cc24.js"
   ]
 }
