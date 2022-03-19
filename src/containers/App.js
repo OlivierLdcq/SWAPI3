@@ -42,7 +42,7 @@ class App extends Component {
     console.log("this is the state : ", this.state);
     return (
       <div className="App">
-        <h1 className="title">Star Wars API</h1>
+        <h1 className="title">Star Wars Api</h1>
         {/* <Counter count={this.state.count} /> */}
         <SearchBar
           inputGotChanged={this.inputGotChanged}
