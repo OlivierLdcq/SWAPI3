@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import CardDisplay from "../components/CardDisplay";
-import Counter from "../components/Counter";
 import SearchBar from "../components/SearchBar";
 import "./App.css";
 
